@@ -36,12 +36,12 @@ guaranteed anonymity for the users.
 
 **Required Must-have Stories**
 
-*[] User should be able to register and rate/review entities anonymously.
-*[] User should be able to search for entities in meaningful ways both for lookup and to rate.
-*[] Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
-*[] Profile pages for each user
-*[] Settings (Accesibility, Notification, General, etc.)
-*[] There are two different types of ratings and questions:
+[] User should be able to register and rate/review entities anonymously.
+[] User should be able to search for entities in meaningful ways both for lookup and to rate.
+[] Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
+[] Profile pages for each user
+[] Settings (Accesibility, Notification, General, etc.)
+[] There are two different types of ratings and questions:
 1) Polling questions: User can set up a polling question that may have any number
 of options.
 For example: Which Cafe is best on campus?
