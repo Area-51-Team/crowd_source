@@ -36,7 +36,7 @@ guaranteed anonymity for the users.
 [] User should be able to register and rate/review entities anonymously.<br/>
 [] User should be able to search for entities in meaningful ways both for lookup and to rate. <br/>
 [] Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).<br/>
-[] Profile pages for each user
+[] Profile pages for each user<br/>
 [] Settings (Accesibility, Notification, General, etc.)<br/>
 [] There are two different types of ratings and questions:
 1) Polling questions: User can set up a polling question that may have any number
