@@ -91,3 +91,10 @@ system. Result for such rating questions would be visible to everyone always.
 
 ## Wireframes
 
+## Schema 
+**Models*
+
+|Property|Type|Description|
+|--------|----|-----------|
+|objectID|String|Unique id for the user post|
+
