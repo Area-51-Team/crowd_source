@@ -3,7 +3,7 @@
 Unit 8: Group Milestone 
 ===
 
-# crowd_source
+# weRate
 
 ## Table of Contents
 1. [Overview](#Overview)
