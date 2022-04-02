@@ -87,12 +87,16 @@ system. Result for such rating questions would be visible to everyone always.
 
 ## Wireframes
 
-<img src="/readmeResources/PhoneImage1_LandingPage.png" width=300><br>
-<img src="/readmeResources/PhoneImage2_LoginPage.png" width=300><br>
-<img src="/readmeResources/PhoneImage3_SignUp.png" width=300><br>
-<img src="/readmeResources/PhoneImage4_Homepage.png" width=300><br>
-<img src="/readmeResources/PhoneImage5_Poll.png" width=300><br>
-<img src="/readmeResources/PhoneImage6_Rating.png" width=300><br>
+<p>
+  <img src="/readmeResources/PhoneImage1_LandingPage.png" width=300>
+  <img src="/readmeResources/PhoneImage2_LoginPage.png" width=300>
+  <img src="/readmeResources/PhoneImage3_SignUp.png" width=300>
+</p>
+<p>
+  <img src="/readmeResources/PhoneImage4_Homepage.png" width=300>
+  <img src="/readmeResources/PhoneImage5_Poll.png" width=300>
+  <img src="/readmeResources/PhoneImage6_Rating.png" width=300>
+</p>
 
 ## Schema 
 **Models** <br>
