@@ -92,9 +92,11 @@ system. Result for such rating questions would be visible to everyone always.
 ## Wireframes
 
 ## Schema 
-**Models*
+**Models**
+**Rating Posts**
 
 |Property|Type|Description|
 |--------|----|-----------|
 |objectID|String|Unique id for the user post|
 
+**Voting Posts**
