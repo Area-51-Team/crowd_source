@@ -98,5 +98,13 @@ system. Result for such rating questions would be visible to everyone always.
 |Property|Type|Description|
 |--------|----|-----------|
 |objectID|String|Unique id for the user post|
+|createdAt|DateTime|Date when post is created|
+|updatedAt|DateTime|Date when post is last updated/when a user has last voted on it|
 
-**Voting Posts**
+**Polling Posts**
+|Property|Type|Description|
+|--------|----|-----------|
+|objectID|String|Unique id for the user post|
+|numberVotes|Dictionary|Associates each type of vote (key) to the number of votes it has (value)|
+|createdAt|DateTime|Date when post is created|
+|updatedAt|DateTime|Date when post is last updated/when a user has last voted on it|
