@@ -3,9 +3,7 @@
 Unit 8: Group Milestone - README Example
 ===
 
-:::info
 **Below is an example** of what your **Group Project README** should include and how it should be structured for the **Unit 8 Group Milestone Submission**.
-:::
 
 # crowd_source
 
@@ -98,6 +96,7 @@ system. Result for such rating questions would be visible to everyone always.
 |Property|Type|Description|
 |--------|----|-----------|
 |objectID|String|Unique id for the user post|
+|numberRates|Dictionary|Associates each rating 1-5 (key) to the number of people that have voted that rating (value)|
 |createdAt|DateTime|Date when post is created|
 |updatedAt|DateTime|Date when post is last updated/when a user has last voted on it|
 
@@ -105,6 +104,6 @@ system. Result for such rating questions would be visible to everyone always.
 |Property|Type|Description|
 |--------|----|-----------|
 |objectID|String|Unique id for the user post|
-|numberVotes|Dictionary|Associates each type of vote (key) to the number of votes it has (value)|
+|numberVotes|Dictionary|Associates each type of vote in the poll (key) to the number of votes it has (value)|
 |createdAt|DateTime|Date when post is created|
 |updatedAt|DateTime|Date when post is last updated/when a user has last voted on it|
