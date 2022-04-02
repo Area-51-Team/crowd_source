@@ -1,9 +1,7 @@
 
 
-Unit 8: Group Milestone - README Example
+Unit 8: Group Milestone 
 ===
-
-**Below is an example** of what your **Group Project README** should include and how it should be structured for the **Unit 8 Group Milestone Submission**.
 
 # crowd_source
 
