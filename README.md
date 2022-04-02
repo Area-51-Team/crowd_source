@@ -92,7 +92,7 @@ system. Result for such rating questions would be visible to everyone always.
 ## Wireframes
 
 ## Schema 
-**Models**
+**Models** <br>
 **Rating Posts**
 
 |Property|Type|Description|
