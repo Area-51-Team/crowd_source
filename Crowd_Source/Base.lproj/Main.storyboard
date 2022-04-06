@@ -54,11 +54,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crowd Source_Clear" translatesAutoresizingMaskIntoConstraints="NO" id="UMJ-2b-yIX">
-                                <rect key="frame" x="107" y="70" width="200" height="200"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weRate-logos_black" translatesAutoresizingMaskIntoConstraints="NO" id="UMJ-2b-yIX">
+                                <rect key="frame" x="30" y="44" width="355" height="283"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="E6s-Iz-v9s"/>
-                                    <constraint firstAttribute="width" constant="200" id="GzI-SJ-LNE"/>
+                                    <constraint firstAttribute="height" constant="283" id="E6s-Iz-v9s"/>
+                                    <constraint firstAttribute="width" constant="355" id="GzI-SJ-LNE"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -72,11 +72,12 @@
                             <constraint firstItem="UMJ-2b-yIX" firstAttribute="centerX" secondItem="qLR-8y-alf" secondAttribute="centerX" id="Ffy-u7-55r"/>
                             <constraint firstItem="fLk-nY-59n" firstAttribute="baseline" secondItem="c3v-Jt-vCE" secondAttribute="baseline" id="Gka-Ws-Dxb"/>
                             <constraint firstItem="qLR-8y-alf" firstAttribute="leading" secondItem="03u-vL-f5e" secondAttribute="leading" id="IGl-Em-1xZ"/>
-                            <constraint firstItem="UMJ-2b-yIX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="IPc-lk-h5p"/>
+                            <constraint firstItem="UMJ-2b-yIX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IPc-lk-h5p"/>
+                            <constraint firstItem="UMJ-2b-yIX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jox-uf-gxV"/>
                             <constraint firstItem="UMJ-2b-yIX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lnd-3M-8zB"/>
                             <constraint firstItem="qLR-8y-alf" firstAttribute="top" secondItem="qPh-M4-NDs" secondAttribute="bottom" constant="8" symbolic="YES" id="OZi-tj-SMA"/>
                             <constraint firstItem="qLR-8y-alf" firstAttribute="trailing" secondItem="fLk-nY-59n" secondAttribute="trailing" id="atY-7A-qOt"/>
-                            <constraint firstItem="qPh-M4-NDs" firstAttribute="top" secondItem="UMJ-2b-yIX" secondAttribute="bottom" constant="36" id="bWW-hS-mIp"/>
+                            <constraint firstItem="qPh-M4-NDs" firstAttribute="top" secondItem="UMJ-2b-yIX" secondAttribute="bottom" constant="-21" id="bWW-hS-mIp"/>
                             <constraint firstItem="qLR-8y-alf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="dAx-AL-vul"/>
                             <constraint firstItem="UMJ-2b-yIX" firstAttribute="centerX" secondItem="03u-vL-f5e" secondAttribute="centerX" id="fUq-gN-yta"/>
                             <constraint firstItem="c3v-Jt-vCE" firstAttribute="top" secondItem="03u-vL-f5e" secondAttribute="bottom" constant="77" id="nAS-zT-Qcr"/>
@@ -123,7 +124,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Crowd Source_Clear" width="1080" height="1080"/>
+        <image name="weRate-logos_black" width="1200" height="1200"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
