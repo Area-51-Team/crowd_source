@@ -32,8 +32,8 @@ guaranteed anonymity for the users.
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-- [ ] User should be able to register and rate/review entities anonymously.<br/>
+- [x] User should be able to signup and login for access to app.<br/>
+- [ ] User should be able to rate/review entities anonymously.<br/>
 - [ ] User should be able to search for entities in meaningful ways both for lookup and to rate. <br/>
 - [ ] Profile pages for each user<br/>
 - [ ] Settings (Accesibility, Notification, General, etc.)<br/>
@@ -118,3 +118,10 @@ system. Result for such rating questions would be visible to everyone always.
 |numberVotes|Dictionary|Associates each type of vote in the poll (key) to the number of votes it has (value)|
 |createdAt|DateTime|Date when post is created|
 |updatedAt|DateTime|Date when post is last updated/when a user has last voted on it|
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/Area-51-Team/crowd_source/blob/main/Sprint%201%20Walkthrough.gif' width='' alt='Video Walkthrough' />
+
