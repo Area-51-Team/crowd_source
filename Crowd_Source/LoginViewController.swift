@@ -20,6 +20,7 @@ class LoginViewController: UIViewController {
         
         user.signUpInBackground { success, error in
             if success{
+                
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }else{
                 print("failed login: \(error!.localizedDescription)")
@@ -33,6 +34,7 @@ class LoginViewController: UIViewController {
         
         PFUser.logInWithUsername(inBackground: username, password: password) { user, error in
             if user != nil{
+                
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }else{
                 print("error \(error!.localizedDescription)")

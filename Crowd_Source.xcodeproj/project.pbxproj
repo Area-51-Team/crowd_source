@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BF65BE47DA4C578AC58E4B6 /* Pods_Crowd_Source_Crowd_SourceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFED26900C75D4F4D90DFB6 /* Pods_Crowd_Source_Crowd_SourceUITests.framework */; };
+		806D4EE32808958E006A781F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D4EE22808958E006A781F /* ProfileViewController.swift */; };
 		80ECF8D527FE0D83004102B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ECF8D427FE0D83004102B4 /* LoginViewController.swift */; };
 		A8E4A89A13E648883ABD97E1 /* Pods_Crowd_Source.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358D8B3DEA3E6F3093A50CEA /* Pods_Crowd_Source.framework */; };
 		C3D7B6E940637AE89B6D42AF /* Pods_Crowd_SourceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0546D8C3B94126D7F4E5C60 /* Pods_Crowd_SourceTests.framework */; };
@@ -45,6 +46,7 @@
 		5BE97525A91784ADC5E8BAD4 /* Pods-Crowd_Source.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd_Source.debug.xcconfig"; path = "Target Support Files/Pods-Crowd_Source/Pods-Crowd_Source.debug.xcconfig"; sourceTree = "<group>"; };
 		7003A0754EBA2CEF15E07318 /* Pods-Crowd_Source.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd_Source.release.xcconfig"; path = "Target Support Files/Pods-Crowd_Source/Pods-Crowd_Source.release.xcconfig"; sourceTree = "<group>"; };
 		7728411BF096F419A3DC284E /* Pods-Crowd_SourceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd_SourceTests.debug.xcconfig"; path = "Target Support Files/Pods-Crowd_SourceTests/Pods-Crowd_SourceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		806D4EE22808958E006A781F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		80ECF8D427FE0D83004102B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A518CC7B3ABEAC236F9A9B4E /* Pods-Crowd_SourceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd_SourceTests.release.xcconfig"; path = "Target Support Files/Pods-Crowd_SourceTests/Pods-Crowd_SourceTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6EB0085281D49B348531F73 /* Pods-Crowd_Source-Crowd_SourceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crowd_Source-Crowd_SourceUITests.release.xcconfig"; path = "Target Support Files/Pods-Crowd_Source-Crowd_SourceUITests/Pods-Crowd_Source-Crowd_SourceUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				F504970B27E65726002A44CA /* LaunchScreen.storyboard */,
 				F504970E27E65726002A44CA /* Info.plist */,
 				80ECF8D427FE0D83004102B4 /* LoginViewController.swift */,
+				806D4EE22808958E006A781F /* ProfileViewController.swift */,
 			);
 			path = Crowd_Source;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			files = (
 				80ECF8D527FE0D83004102B4 /* LoginViewController.swift in Sources */,
 				F504970527E65723002A44CA /* ViewController.swift in Sources */,
+				806D4EE32808958E006A781F /* ProfileViewController.swift in Sources */,
 				F504970127E65723002A44CA /* AppDelegate.swift in Sources */,
 				F504970327E65723002A44CA /* SceneDelegate.swift in Sources */,
 			);
