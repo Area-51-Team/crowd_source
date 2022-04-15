@@ -21,6 +21,9 @@
 		F504971827E65727002A44CA /* Crowd_SourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504971727E65727002A44CA /* Crowd_SourceTests.swift */; };
 		F504972227E65727002A44CA /* Crowd_SourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504972127E65727002A44CA /* Crowd_SourceUITests.swift */; };
 		F504972427E65727002A44CA /* Crowd_SourceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504972327E65727002A44CA /* Crowd_SourceUITestsLaunchTests.swift */; };
+		F527212C2802102E0013F61A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527212B2802102E0013F61A /* FeedViewController.swift */; };
+		F527212E280210CC0013F61A /* RatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527212D280210CC0013F61A /* RatingCell.swift */; };
+		F5272130280210D90013F61A /* PollingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527212F280210D90013F61A /* PollingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		F504971D27E65727002A44CA /* Crowd_SourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Crowd_SourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F504972127E65727002A44CA /* Crowd_SourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_SourceUITests.swift; sourceTree = "<group>"; };
 		F504972327E65727002A44CA /* Crowd_SourceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crowd_SourceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F527212B2802102E0013F61A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F527212D280210CC0013F61A /* RatingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingCell.swift; sourceTree = "<group>"; };
+		F527212F280210D90013F61A /* PollingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,9 @@
 				F504970E27E65726002A44CA /* Info.plist */,
 				80ECF8D427FE0D83004102B4 /* LoginViewController.swift */,
 				806D4EE22808958E006A781F /* ProfileViewController.swift */,
+				F527212B2802102E0013F61A /* FeedViewController.swift */,
+				F527212D280210CC0013F61A /* RatingCell.swift */,
+				F527212F280210D90013F61A /* PollingCell.swift */,
 			);
 			path = Crowd_Source;
 			sourceTree = "<group>";
@@ -412,11 +421,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F527212E280210CC0013F61A /* RatingCell.swift in Sources */,
 				80ECF8D527FE0D83004102B4 /* LoginViewController.swift in Sources */,
 				F504970527E65723002A44CA /* ViewController.swift in Sources */,
 				806D4EE32808958E006A781F /* ProfileViewController.swift in Sources */,
+				F527212C2802102E0013F61A /* FeedViewController.swift in Sources */,
 				F504970127E65723002A44CA /* AppDelegate.swift in Sources */,
 				F504970327E65723002A44CA /* SceneDelegate.swift in Sources */,
+				F5272130280210D90013F61A /* PollingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
