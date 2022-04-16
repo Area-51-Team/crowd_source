@@ -124,4 +124,5 @@ system. Result for such rating questions would be visible to everyone always.
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/Area-51-Team/crowd_source/blob/main/Sprint%201%20Walkthrough.gif' width='' alt='Video Walkthrough' />
+<img src='sprint2.gif' swidth='' alt='Video Walkthrough' />
 
