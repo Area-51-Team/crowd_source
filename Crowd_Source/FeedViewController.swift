@@ -113,7 +113,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print(posts[indexPath.row])
+//        print(posts[indexPath.row])
         let post = posts[indexPath.row]
         if post["polling"] != nil {
             let cell = tableView.dequeueReusableCell(withIdentifier: "PollingCell") as! PollingCell
