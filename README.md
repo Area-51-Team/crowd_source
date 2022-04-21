@@ -33,11 +33,11 @@ guaranteed anonymity for the users.
 
 **Required Must-have Stories**
 - [x] User should be able to signup and login for access to app.<br/>
-- [ ] User should be able to rate/review entities anonymously.<br/>
+- [x] User should be able to rate/review entities anonymously.<br/>
 - [ ] User should be able to search for entities in meaningful ways both for lookup and to rate. <br/>
-- [ ] Profile pages for each user<br/>
+- [x] Profile pages for each user<br/>
 - [ ] Settings (Accesibility, Notification, General, etc.)<br/>
-- [ ] There are two different types of ratings and questions:
+- [x] There are two different types of ratings and questions:
 1) Polling questions: User can set up a polling question that may have any number
 of options.
 For example: Which Cafe is best on campus?
@@ -123,6 +123,6 @@ system. Result for such rating questions would be visible to everyone always.
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Area-51-Team/crowd_source/blob/main/Sprint%201%20Walkthrough.gif' width='' alt='Video Walkthrough' />
+<!-- <img src='https://github.com/Area-51-Team/crowd_source/blob/main/Sprint%201%20Walkthrough.gif' width='' alt='Video Walkthrough' /> -->
 <img src='sprint2.gif' swidth='' alt='Video Walkthrough' />
 
