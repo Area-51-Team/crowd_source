@@ -33,6 +33,8 @@ class PollingCell: UITableViewCell, UIPickerViewDelegate, UIPickerViewDataSource
     }
     
     func setOptions(options : [String]){
+        self.optionsPicker.reloadAllComponents()
+        self.optionsPicker.dataSource = self
         self.options = options
 //        print(self.options.count)
         selectedValue = options[0]
@@ -73,6 +75,7 @@ class PollingCell: UITableViewCell, UIPickerViewDelegate, UIPickerViewDataSource
         return 1
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        print(options.count)
         return options.count
     }
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {

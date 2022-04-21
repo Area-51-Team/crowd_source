@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddPollingViewController" customModule="Crowd_Source" customModuleProvider="target">
+            <connections>
+                <outlet property="itemName" destination="PBN-7N-SoM" id="hh0-yc-3sJ"/>
+                <outlet property="pollItems" destination="f3I-G9-e7V" id="VNZ-Ln-CWC"/>
+                <outlet property="question" destination="6qV-ut-hg0" id="VcE-Oj-Gep"/>
+                <outlet property="tableViewHeight" destination="Mbl-7l-RB8" id="0gX-1h-jPw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clM-pS-z62">
+                    <rect key="frame" x="20" y="52" width="69" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6qV-ut-hg0">
+                    <rect key="frame" x="20" y="81" width="374" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poll Items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R18-XI-VNY">
+                    <rect key="frame" x="20" y="123" width="74" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f3I-G9-e7V">
+                    <rect key="frame" x="20" y="152" width="374" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Mbl-7l-RB8"/>
+                    </constraints>
+                </tableView>
+                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PBN-7N-SoM">
+                    <rect key="frame" x="20" y="210" width="32" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKX-Uv-HQ5">
+                    <rect key="frame" x="312" y="210" width="82" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Add Item"/>
+                    <connections>
+                        <action selector="onAddItem:" destination="-1" eventType="touchUpInside" id="VIZ-dq-j3E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKI-mT-nsc">
+                    <rect key="frame" x="150" y="258" width="114" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                    <connections>
+                        <action selector="onSubmit:" destination="-1" eventType="touchUpInside" id="q7s-jI-ZAU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="PBN-7N-SoM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3mw-HA-Nqd"/>
+                <constraint firstItem="f3I-G9-e7V" firstAttribute="top" secondItem="R18-XI-VNY" secondAttribute="bottom" constant="8" id="6yv-T0-Dyh"/>
+                <constraint firstItem="wKX-Uv-HQ5" firstAttribute="top" secondItem="f3I-G9-e7V" secondAttribute="bottom" constant="8" id="A7a-DY-WeY"/>
+                <constraint firstItem="KKI-mT-nsc" firstAttribute="top" secondItem="PBN-7N-SoM" secondAttribute="bottom" constant="14" id="AKo-sX-e8U"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KKI-mT-nsc" secondAttribute="trailing" constant="150" id="EHR-OI-Smp"/>
+                <constraint firstItem="PBN-7N-SoM" firstAttribute="top" secondItem="f3I-G9-e7V" secondAttribute="bottom" constant="8" id="EWT-4e-wyO"/>
+                <constraint firstItem="wKX-Uv-HQ5" firstAttribute="leading" secondItem="PBN-7N-SoM" secondAttribute="trailing" constant="8" id="K8Y-xg-XuI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wKX-Uv-HQ5" secondAttribute="trailing" constant="20" id="L0a-r3-qKA"/>
+                <constraint firstItem="R18-XI-VNY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Oj7-qO-Ari"/>
+                <constraint firstItem="clM-pS-z62" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="SBe-kg-TNa"/>
+                <constraint firstItem="R18-XI-VNY" firstAttribute="top" secondItem="6qV-ut-hg0" secondAttribute="bottom" constant="8" id="SCv-xh-xPW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="f3I-G9-e7V" secondAttribute="trailing" constant="20" id="XFt-Q8-U5s"/>
+                <constraint firstItem="6qV-ut-hg0" firstAttribute="top" secondItem="clM-pS-z62" secondAttribute="bottom" constant="8" id="cOz-WY-qzg"/>
+                <constraint firstItem="f3I-G9-e7V" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="cyg-iZ-Ecb"/>
+                <constraint firstItem="clM-pS-z62" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="jZA-Bi-YVp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6qV-ut-hg0" secondAttribute="trailing" constant="20" id="m1Z-xr-XA4"/>
+                <constraint firstItem="KKI-mT-nsc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="150" id="mUn-yk-uJP"/>
+                <constraint firstItem="6qV-ut-hg0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="wTJ-GD-GNV"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="150.66964285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -24,6 +24,13 @@
 		F527212C2802102E0013F61A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527212B2802102E0013F61A /* FeedViewController.swift */; };
 		F527212E280210CC0013F61A /* RatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527212D280210CC0013F61A /* RatingCell.swift */; };
 		F5272130280210D90013F61A /* PollingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527212F280210D90013F61A /* PollingCell.swift */; };
+		F5F82A4628110AEC00DA113D /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F82A4528110AEC00DA113D /* AddPostViewController.swift */; };
+		F5F82A4D28110BF500DA113D /* AddRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F82A4B28110BF500DA113D /* AddRatingViewController.swift */; };
+		F5F82A4E28110BF500DA113D /* AddRatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F82A4C28110BF500DA113D /* AddRatingViewController.xib */; };
+		F5F82A5328110C3900DA113D /* AddPollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F82A5128110C3900DA113D /* AddPollingViewController.swift */; };
+		F5F82A5428110C3900DA113D /* AddPollingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F82A5228110C3900DA113D /* AddPollingViewController.xib */; };
+		F5F82A592811189400DA113D /* PollingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F82A572811189400DA113D /* PollingItemCell.swift */; };
+		F5F82A5A2811189400DA113D /* PollingItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F82A582811189400DA113D /* PollingItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +78,13 @@
 		F527212B2802102E0013F61A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F527212D280210CC0013F61A /* RatingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingCell.swift; sourceTree = "<group>"; };
 		F527212F280210D90013F61A /* PollingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingCell.swift; sourceTree = "<group>"; };
+		F5F82A4528110AEC00DA113D /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		F5F82A4B28110BF500DA113D /* AddRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRatingViewController.swift; sourceTree = "<group>"; };
+		F5F82A4C28110BF500DA113D /* AddRatingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddRatingViewController.xib; sourceTree = "<group>"; };
+		F5F82A5128110C3900DA113D /* AddPollingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPollingViewController.swift; sourceTree = "<group>"; };
+		F5F82A5228110C3900DA113D /* AddPollingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPollingViewController.xib; sourceTree = "<group>"; };
+		F5F82A572811189400DA113D /* PollingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingItemCell.swift; sourceTree = "<group>"; };
+		F5F82A582811189400DA113D /* PollingItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PollingItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +175,13 @@
 				F527212B2802102E0013F61A /* FeedViewController.swift */,
 				F527212D280210CC0013F61A /* RatingCell.swift */,
 				F527212F280210D90013F61A /* PollingCell.swift */,
+				F5F82A4528110AEC00DA113D /* AddPostViewController.swift */,
+				F5F82A4C28110BF500DA113D /* AddRatingViewController.xib */,
+				F5F82A4B28110BF500DA113D /* AddRatingViewController.swift */,
+				F5F82A5128110C3900DA113D /* AddPollingViewController.swift */,
+				F5F82A5228110C3900DA113D /* AddPollingViewController.xib */,
+				F5F82A572811189400DA113D /* PollingItemCell.swift */,
+				F5F82A582811189400DA113D /* PollingItemCell.xib */,
 			);
 			path = Crowd_Source;
 			sourceTree = "<group>";
@@ -291,7 +312,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F82A5A2811189400DA113D /* PollingItemCell.xib in Resources */,
+				F5F82A5428110C3900DA113D /* AddPollingViewController.xib in Resources */,
 				F504970D27E65726002A44CA /* LaunchScreen.storyboard in Resources */,
+				F5F82A4E28110BF500DA113D /* AddRatingViewController.xib in Resources */,
 				F504970A27E65726002A44CA /* Assets.xcassets in Resources */,
 				F504970827E65723002A44CA /* Main.storyboard in Resources */,
 			);
@@ -422,10 +446,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F527212E280210CC0013F61A /* RatingCell.swift in Sources */,
+				F5F82A5328110C3900DA113D /* AddPollingViewController.swift in Sources */,
+				F5F82A4628110AEC00DA113D /* AddPostViewController.swift in Sources */,
 				80ECF8D527FE0D83004102B4 /* LoginViewController.swift in Sources */,
+				F5F82A4D28110BF500DA113D /* AddRatingViewController.swift in Sources */,
 				F504970527E65723002A44CA /* ViewController.swift in Sources */,
 				806D4EE32808958E006A781F /* ProfileViewController.swift in Sources */,
 				F527212C2802102E0013F61A /* FeedViewController.swift in Sources */,
+				F5F82A592811189400DA113D /* PollingItemCell.swift in Sources */,
 				F504970127E65723002A44CA /* AppDelegate.swift in Sources */,
 				F504970327E65723002A44CA /* SceneDelegate.swift in Sources */,
 				F5272130280210D90013F61A /* PollingCell.swift in Sources */,

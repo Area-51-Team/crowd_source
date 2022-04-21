@@ -19,8 +19,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.estimatedRowHeight = 150
         // Do any additional setup after loading the view.
-//        addRatingPost()
-//        addPollingPost()
         
     }
     
@@ -30,6 +28,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let query = PFQuery(className: "Posts")
         query.includeKeys(["polling", "rating"])
         query.limit = 20
+        query.order(byDescending: "createdAt")
         
         query.findObjectsInBackground { (posts, error) in
             if posts != nil {
@@ -47,62 +46,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Pass the selected object to the new view controller.
     }
     */
-    func addPollingPost(){
-        let post = PFObject(className: "Posts")
-        let polling = PFObject(className: "PollingPosts")
-        polling["question"] = "This is a polling question"
-        let options = ["Option A", "Option B", "Option C"]
-        polling["options"] = options
-        polling["author"] = PFUser.current()
-        var votes = [String:Int]()
-        for option in options{
-            votes[option] = 0
-        }
-        polling["votes"] = votes
-        
-        post["polling"] = polling
-        polling.saveInBackground { (success, error) in
-            if success {
-                print("Saved!")
-                self.tableView.reloadData()
-            } else {
-                print("Error: \(error?.localizedDescription ?? "")")
-            }
-        }
-        post.saveInBackground { (success, error) in
-            if success {
-                print("Saved!")
-                self.tableView.reloadData()
-            } else {
-                print("Error: \(error?.localizedDescription ?? "")")
-            }
-        }
-    }
-    
-    func addRatingPost(){
-        let post = PFObject(className: "Posts")
-        let rating = PFObject(className: "RatingPosts")
-        rating["question"] = "This is a rating question"
-        rating["author"] = PFUser.current()
-        rating["votes"] = ["1" : 0, "2" : 0, "3" : 0, "4" : 0, "5" : 0]
-        post["rating"] = rating
-        rating.saveInBackground { (success, error) in
-            if success {
-                print("Saved!")
-                self.tableView.reloadData()
-            } else {
-                print("Error: \(error?.localizedDescription ?? "")")
-            }
-        }
-        post.saveInBackground { (success, error) in
-            if success {
-                print("Saved!")
-                self.tableView.reloadData()
-            } else {
-                print("Error: \(error?.localizedDescription ?? "")")
-            }
-        }
-    }
     
     func updateTableView(){
         tableView.reloadData()
@@ -113,11 +56,12 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        print(posts[indexPath.row])
+
         let post = posts[indexPath.row]
         if post["polling"] != nil {
             let cell = tableView.dequeueReusableCell(withIdentifier: "PollingCell") as! PollingCell
             let polling = post["polling"] as! PFObject
+//            print(polling)
             cell.post = polling
             cell.question.text = polling["question"] as? String
             cell.setOptions(options: polling["options"] as? [String] ?? [])
